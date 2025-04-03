@@ -11,7 +11,7 @@ The provided GAF implementation uses pure PyTorch. It provides the following ben
 
 ## Optimizations
 
-Our implementation is based on the GAF transform from pyts. However, as Figure 1 shows the GAF transform significantly benefits from GPU acceleration achieving speedups of almost 90x for larger batch sizes.
+Our implementation is based on the GAF transform from pyts. However, as Figure 1 shows, the GAF transform significantly benefits from GPU acceleration, achieving speedups of almost 90x for larger batch sizes.
 
 ![Performance Comparison](performance_comparison.png)
 *Figure 1: Execution time comparison between CPU-based pyts implementation and our implementation on CPU and GPU.*
