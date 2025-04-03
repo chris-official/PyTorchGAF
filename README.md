@@ -1,7 +1,8 @@
 # PyTorchGAF: PyTorch-accelerated implementation of the Gramian Angualr Field (GAF)
 
-The provided GAF implementation uses pure PyTorch which provides several benefits:
+The provided GAF implementation uses pure PyTorch. It provides the following benefits and features:
 - Supports batched data.
+- Supports multivariate time series data.
 - Allows to use the GAF transform directly as a neural network layer.
 - Allows directly transforming the data on the target device (CPU or GPU).
 - Uses efficient vectorized Einstein Summation Notation to compute the outer products to avoid using loops.
