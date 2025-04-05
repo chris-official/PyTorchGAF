@@ -1,4 +1,4 @@
-# PyTorchGAF: PyTorch-accelerated implementation of the Gramian Angualr Field (GAF)
+# PyTorchGAF: PyTorch-accelerated implementation of the Gramian Angular Field (GAF)
 
 The provided GAF implementation uses pure PyTorch. It provides the following benefits and features:
 - Supports batched data.
